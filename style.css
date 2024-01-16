@@ -76,7 +76,7 @@ ul li:hover{
 
 /* start main section style 1 */
 .main-section-first-img{
-  background-image:url('/Images/Group\ 13\ \(1\)\ \(1\).png');
+  background-image:url('./Images/Group\ 13\ \(1\)\ \(1\).png');
   height:500px ;
   width: 1170;
   display: flex;
@@ -570,7 +570,7 @@ margin-bottom:-40px;
 /* footer section end style */
 
 
-@media screen and (max-width:676px) {
+@media screen and (max-width:600px) {
   header{
     margin:0 20px;
   }
