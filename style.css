@@ -357,8 +357,7 @@ background: rgba(233, 68, 68, 0.05);
 /* end section 6 style */
 
 .dilog{
-  border:1px solid red ;
-  height:400px;
+  height:160px;
   width: 100%;
  padding:30px;
 }
@@ -638,22 +637,13 @@ height: 52px;
 .artical{
   width: 450px;
 }
-.right-site-img{
-  margin: 0 px;
-  margin-top:5vh;
-  border-radius:16px;
-}
+ 
 /*Chone your destination */
 .s-3-container{
   display: none;
 }
-.right-site-img{
-  display: flex;
-  flex-direction: column;
-}
-.s-33-container{
-  display: block;
-}
+ 
+ 
 .row-1{
   flex-direction: column;
   width: auto;
@@ -685,9 +675,10 @@ footer{
 }
 .newsletter{
   flex-direction: column;
-  padding: 20px;
-   
-    
+  padding: 20px;   
+}
+.right-site-img{
+  display:none;
 }
 .news-title{
   color: #131318;
